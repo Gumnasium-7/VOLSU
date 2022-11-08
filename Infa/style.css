@@ -1,0 +1,43 @@
+h1{
+    font-style: italic;
+}
+.block_1{
+    margin-right: 5px;
+    background-color:rgba(255, 217, 0, 0.797);
+    border-radius: 20px;
+}
+.block_2{
+    margin-left: 5px;
+    background-color:rgba(255, 217, 0, 0.783);
+    border-radius: 20px;
+}
+
+/* Практическая №1 */
+.my_ul{
+    font-size: 25px;
+    text-decoration: line-through;
+    color: deeppink;
+}
+.my_ol{
+    font-size: 12px;
+    text-decoration: underline;
+    color: darkgreen;
+}
+/*tr:hover {background-color: coral;}*/
+td:hover {background-color: coral;}
+th {
+    background-color: #04AA6D;
+    color: white;
+  }
+.my_table td{
+    border: 2px dashed;
+}
+
+/* Практическая №2 */
+.img_2{
+    margin: auto;
+    border-radius: 30%;
+    width: 500px;
+    box-shadow: 10px 10px 5px teal;
+    border: 2px dashed red;
+}
