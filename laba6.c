@@ -3,8 +3,8 @@
 /* функция для возведения в степень, 
 принимает целочисленные x - основание, n - степень 
 возращает целое число */
-int my_pow(int x, int n){
-  int rez=1, i;
+float my_pow(float x, int n){
+  float rez=1, i;
   for(i=0; i < n; i++){
     rez *= x;
   }

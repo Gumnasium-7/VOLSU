@@ -1,0 +1,7 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Набор текста и нумерованных/маркированных списков}{2}{section.1}%
+\contentsline {section}{\numberline {2}Добавление рисунков и подписей к ним}{2}{section.2}%
+\contentsline {section}{\numberline {3}Добавление формул}{2}{section.3}%
+\contentsline {section}{\numberline {4}Добавление таблиц и подписей к ним}{3}{section.4}%
+\contentsline {section}{\numberline {5}Добавление перекрестных ссылок на объекты и библиографические описания}{3}{section.5}%
+\contentsline {section}{Литература}{3}{section.5}%
