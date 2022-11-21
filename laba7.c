@@ -1,33 +1,28 @@
 #include <stdio.h>
 #include <math.h>
 
-void my_pow(float *x, int *n, int *rez){
-  int i;
-  for(i=0; i < *n; i++){
-    *rez *= *x;
-  }
-}
 
-int factorial(int *x, int *rez){
-  int i;
-  if(x != 0){
-    for(i=1; i<= *x; i++){
-      *rez *= i;
+float my_sum(int *n, float *x, float *S){
+    float rez;
+    if (*n == 0){
+        *S += -(*x);
+        return 0;
+     } else if (*n == 1){
+        *S += 1
+        return 0;
+    } else{
+        *n -= 1;
+        *S += my_sum(n, x, S) * ((-((*x)*(*x))) / ((2*(*n) - 2) * (2*(*n) - 1 )));
+        return 0;
     }
-  }else *rez = 1;
-}
 
-
-void sum_t(float x, int n){
-    float S=1.0, t;
-    for(int i=1; i <=10; i++){
-        t = my_pow(&(-1), &n) * ((my_pow(x, (2*i - 1))) / (factorial(2*i - 1)));
-        S += t;
-    }
-    printf("%f", S);
-}
-
+}        
 
 int main(){
-    sum_t(2.0, 2);
+    int n, xyi;
+    float x, S;
+    printf("Введите целое число n и вещественное число x:\t"); 
+    scanf("%d%f", &n, &x);
+    xyi = my_sum(&n, &x, &S);
+    printf("Sum = %f\n%d", S, xyi);
 }
